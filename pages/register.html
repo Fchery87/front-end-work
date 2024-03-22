@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/tables.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="../index.html">Home</a></li>
+      <li><a href="../pages/register.html">Register</a></li>
+      <li><a href="../pages/about.html">About</a></li>
+      <li style="float: right"><a href="../pages/tables.html">Tables</a></li>
+
+      <li style="float: right">
+        <a href="./login.html">
+          <img
+            src="../images/icons8-access-80.png"
+            alt="Login Icon"
+            class="login-user"
+          />
+          Log In
+        </a>
+      </li>
+    </ul>
+
+    <!-- REGISTRATION PAGE -->
+    <div class="registrationpage">
+    <h1>REGISTRATION PAGE</h1>
+
+    <form action="form-action-2">
+      <label for="FirstName">First Name</label>
+      <input
+        type="text"
+        placeholder="Enter Your First Name:"
+        name="FirstName"
+        id="FirstName"
+        required
+      /><br />
+
+      <label for="LastName">LastName</label>
+      <input
+        type="text"
+        placeholder="Enter Your Last Name:"
+        name="LastName"
+        id="LastName"
+        required
+      /><br />
+
+      <label for="email">Email</label>
+      <input
+        type="text"
+        placeholder="Enter Email:"
+        name="email"
+        id="email"
+        required
+      /><br />
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="password"
+        id="password"
+        required
+      /><br /><br />
+
+      <label for="confirmpassword">Confirm Password</label>
+      <input
+        type="password"
+        placeholder="Confrim Password"
+        name="confirmpassword"
+        id="confirmpassword"
+        required
+      /><br /><br />
+
+      <div class="grouped">
+        <legend>Gender</legend>
+        <label for="male">Male</label>
+        <input type="radio" name="radio_button" id="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="radio_button" id="female" />
+      </div>
+      <br>
+      <label for="DOB">Date Of Birth</label>
+      <input
+        type="date"
+        placeholder="Enter Your Last Name:"
+        name="LastName"
+        id="LastName"
+        required
+      /><br />
+
+      <br />
+      <br />
+      
+      <input id='laugh' type="button" value="Submit" />
+    </form>
+    </div>
+  </body>
+</html>

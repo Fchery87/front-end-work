@@ -1,0 +1,69 @@
+body {
+  /* background-color: red; */
+}
+
+a {
+  color: white;
+  font-size: 24px;
+}
+
+a:hover {
+  font-size: 32px;
+  color: aquamarine;
+}
+
+main {
+  /* background-color: purple; */
+}
+
+/* This is a comment */
+
+body {
+  background-color: #222831;
+  color: whitesmoke;
+  font-size: 1.1em;
+}
+h1 {
+  color: black;
+}
+#intro {
+  font-size: 1.3em;
+}
+.colorful {
+  color: orange;
+}
+
+section {
+  border: 5px solid black; padding: 10px; background-color: #76ABAE;
+}
+
+div { color: coral ;
+  
+}
+
+.my_items {
+  background-color: slategrey;
+  padding: 15px;
+
+}
+
+li:nth-child(4) {
+  color: hotpink;
+}
+
+#bio {
+  background-color: hotpink; 
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+/* li::before {
+  content: '🚀'
+} */
+li::before {
+  content: url('');
+  margin-right: 5px;
+}
